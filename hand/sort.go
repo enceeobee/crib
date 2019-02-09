@@ -6,8 +6,6 @@ import (
 	"github.com/enceeobee/crib/card"
 )
 
-// TODO - sort_test.go!
-
 // BySortOrder implements sort.Interface for []*card.Card based on
 // the SortOrder field.
 type BySortOrder []*card.Card
